@@ -30,11 +30,12 @@ class MyBigNumber:
 
             if step ==1: logging.info(f"         Lưu {digit} vào kết quả và nhớ {carry}")
             else: 
-                logging.info(f"         Lưu {digit} vào kết quả được kết quả mới là {"result"}")
+                logging.info(f"         Lưu {digit} vào kết quả được kết quả mới là \"{result}\"")
                 logging.info(f"         Ghi nhớ {carry}.")
 
             i -= 1
             j -= 1  
             step += 1
-        
+            
+        logging.info(f"KẾT QUẢ CUỐI CÙNG LÀ \"{result}\"")
         return result
