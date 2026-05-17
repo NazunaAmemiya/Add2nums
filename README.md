@@ -7,5 +7,5 @@ README.md               # Hướng dẫn biên dịch và chạy chương trình
 
 ### Hướng dẫn chạy chương trình
 ```bash
-python test_Add2Num.py
+python test.py
 ```
